@@ -1,15 +1,30 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-    apiKey: "AIzaSyC3MIN64hy_oTQfQWUHl0lID-CJkIfci0M",
-    authDomain: "yt-project-a29f8.firebaseapp.com",
-    projectId: "yt-project-a29f8",
-    storageBucket: "yt-project-a29f8.appspot.com",
-    messagingSenderId: "159898773748",
-    appId: "1:159898773748:web:2985334de4f06ff73356a1",
-    measurementId: "G-DLWR9M5SJC"
-  };
-firebase.initializeApp(firebaseConfig);
+// const firebaseConfig = {
+//     apiKey: "AIzaSyC3MIN64hy_oTQfQWUHl0lID-CJkIfci0M",
+//     authDomain: "yt-project-a29f8.firebaseapp.com",
+//     projectId: "yt-project-a29f8",
+//     storageBucket: "yt-project-a29f8.appspot.com",
+//     messagingSenderId: "159898773748",
+//     appId: "1:159898773748:web:2985334de4f06ff73356a1",
+//     measurementId: "G-DLWR9M5SJC"
+//   };
+// firebase.initializeApp(firebaseConfig);
 // get dom in variables
+
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyAVenLYEBaHgsfy372nsAIaYHIn6aRIhnY",
+    authDomain: "vbes-ac679.firebaseapp.com",
+    projectId: "vbes-ac679",
+    storageBucket: "vbes-ac679.appspot.com",
+    messagingSenderId: "530537291144",
+    appId: "1:530537291144:web:efaf30a0ccd44fee6bae3d",
+    measurementId: "G-SVX3VV4SNW"
+  };
+ firebase.initializeApp(firebaseConfig);
+
+
 var upload = document.getElementsByClassName('upload')[0];
 var hiddenBtn = document.getElementsByClassName('hidden-upload-btn')[0];
 var progress = document.getElementsByClassName('progress')[0];
